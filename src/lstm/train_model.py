@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-#-*- coding: UTF-8 -*-
-import collections  
+import collections
 import numpy as np  
 import tensorflow as tf  
 
