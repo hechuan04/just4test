@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 import collections
+=======
+#!/usr/bin/python3
+#-*- coding: UTF-8 -*-
+import collections  
+>>>>>>> 948053149bf0b9b609b74a57e68d30d46a4891d0
 import numpy as np  
 import tensorflow as tf  
 
