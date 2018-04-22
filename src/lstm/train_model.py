@@ -2,10 +2,6 @@ import collections
 import numpy as np  
 import tensorflow as tf  
 
-'''
-author: log16
-Data: 2017/5/4
-'''
 #-------------------------------数据预处理---------------------------#  
    
 poetry_file ='poetry.txt'  
