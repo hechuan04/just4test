@@ -6,9 +6,22 @@ public class HelloWorld {
 //        System.out.println(chufa(99, 22));
 //        System.out.println(add(10, 99));
 
-        TestStatic yan = new TestStatic();
-        yan.mieyan();
-        yan.dianyan();
+//        TestFei yan = new TestFei();
+//        yan.mieyan();
+//        yan.dianyan();
+
+        int i=1;
+
+        while (i<=10){
+
+            System.out.println(i);
+            if (i==5){
+            System.out.println("bingo");
+            continue;
+            }
+            i++;
+        }
+
     }
 
     static int jianfa(int a, int b) {
