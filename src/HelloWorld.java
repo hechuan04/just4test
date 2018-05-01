@@ -15,7 +15,7 @@ public class HelloWorld {
         while (i<=10){
 
             System.out.println(i);
-            if (i==6){
+            if (i==7){
             System.out.println("bingo");
             continue;
             }
