@@ -1,4 +1,4 @@
-public class TestFei {
+public class TestFei_2 {
 
     private void homework(int index) {
         int a = 0;
@@ -20,7 +20,7 @@ public class TestFei {
     }
 
     public static void main(String[] args) {
-        TestFei testFei = new TestFei();
+        TestFei_2 testFei = new TestFei_2();
         testFei.homework(1);
     }
 

@@ -1,4 +1,4 @@
-public class HelloWorld {
+public class HelloWorld_1 {
 
     public static void main(String[] args) {
 //        System.out.println(chengfa(4500, 13));
@@ -6,7 +6,7 @@ public class HelloWorld {
 //        System.out.println(chufa(99, 22));
 //        System.out.println(add(10, 99));
 
-//        TestFei yan = new TestFei();
+//        TestFei_2 yan = new TestFei_2();
 //        yan.mieyan();
 //        yan.dianyan();
 
