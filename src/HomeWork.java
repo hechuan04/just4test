@@ -1,25 +1,25 @@
 public class HomeWork {
     int t = 10;
-//  sout
+
     HomeWork(int t) {
-        t++;
+        this.t=t;
         System.out.println("2.t=" + t);
     }
 
-    public void hm(int t) {
+    public void hm() {
         t++;
         System.out.println("3.t=" + t);
     }
 
-    static void hm2(int t) {
+    static void hm2() {
         System.out.println("static");
 
     }
 
     public static void main(String[] args) {
-        HomeWork homeWork = new HomeWork(5);
-        homeWork.hm(2);
-        homeWork.hm2(3);
+        HomeWork homeWork = new HomeWork(20);
+//        homeWork.hm(2);
+//        homeWork.hm2(3);
 
 
     }

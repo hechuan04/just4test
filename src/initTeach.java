@@ -41,7 +41,7 @@ public class initTeach {
 
     public static void main(String[] args) {
         initTeach testFei = new initTeach(5);
-      // testFei.homework(4);
+       testFei.homework(4);
     }
 
 }
