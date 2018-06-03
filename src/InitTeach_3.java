@@ -6,15 +6,17 @@ public class InitTeach_3 {
         Iclazz_3 homeWork = new Iclazz_3(20);
         System.out.println("tttt");
     }
-    InitTeach_3(int i){
+
+    InitTeach_3(int i) {
         System.out.println(i);
     }
-    InitTeach_3(){
+
+    InitTeach_3() {
         //com.Iclazz_3 homeWork = new com.Iclazz_3(20);
         System.out.println("init initTeach");
     }
 
-    static void dtsfun(){
+    static void dtsfun() {
         System.out.println("static initTeach");
     }
 
