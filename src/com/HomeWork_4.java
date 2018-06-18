@@ -19,10 +19,13 @@ public class HomeWork_4 {
             int j = 0;
             int s = array[i];
             for (j = i - 1; j >= 0 && s < array[j]; j--) {
-
                 array[j + 1] = array[j];
             }
-           array[j + 1] = s;
+            array[j + 1] = s;
+            for (int b = 0; b < array.length; b++) {
+                System.out.print(array[b] + " ");
+            }
+            System.out.println();
         }
         for (int b = 0; b < array.length; b++) {
             System.out.print(array[b] + " ");

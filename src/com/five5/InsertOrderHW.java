@@ -2,32 +2,32 @@ package com.five5;
 
 public class InsertOrderHW {
     InsertOrderHW() {
-        System.out.println("构造函数");
+        System.out.println("I构造函数");
     }
 
     {
-        System.out.println("非静态代码块");
+        System.out.println("I非静态代码块");
     }
 
     static {
-        System.out.println("静态代码块");
+        System.out.println("I静态代码块");
     }
 
     static void testJing() {
-        System.out.println("静态方法");
+        System.out.println("I静态方法");
     }
 
     void testFei() {
-        System.out.println("非静态方法");
+        System.out.println("I非静态方法");
     }
 
+    static void upTest(Object a){
+       // a.testFei();
+    }
     public static void main(String[] args) {
-        InsertOrderHW insertOrderHW = new InsertOrderHW();
-        CatTest catTest = new CatTest();
-        MeiDuan meiDuan = new MeiDuan();
-        testJing();
-        insertOrderHW.testFei();
-        testJing();
-
+     MeiDuan meiDuan =new MeiDuan();
+       // InsertOrderHW insertOrderHW =new InsertOrderHW();
+     //upTest(insertOrderHW);
+        meiDuan.testFei();
     }
 }

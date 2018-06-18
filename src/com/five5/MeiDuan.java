@@ -1,7 +1,13 @@
 package com.five5;
 
-public class MeiDuan {
-    MeiDuan() {
+public class MeiDuan extends CatTest {
+
+    int ii=0;
+
+    final int add() {
+        return ++ii;
+    }
+    public MeiDuan() {
         System.out.println("M构造函数");
     }
 
@@ -16,13 +22,9 @@ public class MeiDuan {
     }
 
     void testFei() {
-        System.out.println("M非静态方法");
+//        System.out.println("M非静态方法");
+        super.testFei();
     }
 
-    public static void main(String[] args) {
-       MeiDuan meiDuan =new MeiDuan();
-        testJing();
-        meiDuan.testFei();
-        testJing();
-    }
+
 }

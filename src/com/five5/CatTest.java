@@ -1,6 +1,6 @@
 package com.five5;
 
-public class CatTest {
+public class CatTest extends InsertOrderHW{
     CatTest() {
         System.out.println("C构造函数");
     }
@@ -19,10 +19,6 @@ public class CatTest {
         System.out.println("C非静态方法");
     }
 
-    public static void main(String[] args) {
-        CatTest catTest = new CatTest();
-        testJing();
-        catTest.testFei();
-        testJing();
-    }
+
+
 }
