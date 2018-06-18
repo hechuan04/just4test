@@ -4,7 +4,7 @@ public class MeiDuan extends CatTest {
 
     int ii=0;
 
-    final int add() {
+    public int add() {
         return ++ii;
     }
     public MeiDuan() {
