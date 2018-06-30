@@ -15,6 +15,7 @@ public class AbstrctActHW {
         }
         if (activity == 2) {
             System.out.println("买一赠一");
+            actual = original;
         }
         if (activity == 3 && insider == true) {
             actual = original * 0.9;
