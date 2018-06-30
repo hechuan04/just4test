@@ -1,6 +1,6 @@
 package com.seven7.sbstactHW;
 
-public class AbstrctActHW {
+public class AbstrctActHW extends NewActivity{
     double original;
     double actual;
     boolean insider;
@@ -19,8 +19,6 @@ public class AbstrctActHW {
         }
         if (activity == 3 && insider == true) {
             actual = original * 0.9;
-        } else {
-            actual = original;
         }
         return actual;
     }
