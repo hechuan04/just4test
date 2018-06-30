@@ -5,8 +5,7 @@ public class Client extends AbstrctActHW {
 
     public static void main(String[] args) {
         AbstrctActHW abstrctActHW = new AbstrctActHW();
-        abstrctActHW.activity(20.5, false, 2);
-        System.out.println("实付价格：" + abstrctActHW.activity);
+        System.out.println("实付价格：" + abstrctActHW.activity(20.5, false, 2));
 
 
     }
