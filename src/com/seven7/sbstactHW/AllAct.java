@@ -1,12 +1,10 @@
 package com.seven7.sbstactHW;
 
-public class AbstrctActHW extends NewActivity{
-    double original;
-    double actual;
-    boolean insider;
-    int activity;
+public class AllAct {
 
     public double activity(double original, boolean insider, int activity) {
+        double actual=0;
+
         if (activity == 0 && original > 10) {
             actual = original--;
         }
@@ -22,6 +20,7 @@ public class AbstrctActHW extends NewActivity{
         }
         return actual;
     }
+
 }
 
 
